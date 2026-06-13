@@ -1,0 +1,6 @@
+Creacion de Base de Dtaos y Usuario:
+
+CREATE DATABASE mesadeayuda CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE USER 'proyecto'@'localhost' IDENTIFIED BY 'proyecto';
+GRANT ALL PRIVILEGES ON mesadeayuda.* TO 'proyecto'@'localhost';
+FLUSH PRIVILEGES;
